@@ -1,0 +1,31 @@
+/* App.css or LandingPage.css */
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background: linear-gradient(135deg, #ffe6f2, #ff80b3);
+}
+
+h1, h2, p {
+  margin: 10px;
+  padding: 0;
+  color: #333;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #ff4081;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
